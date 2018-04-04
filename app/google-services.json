@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "541171053942",
+    "firebase_url": "https://rolgame-38c62.firebaseio.com",
+    "project_id": "rolgame-38c62",
+    "storage_bucket": "rolgame-38c62.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:541171053942:android:50788c0e7aea7d20",
+        "android_client_info": {
+          "package_name": "com.example.yo.rolgame"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "541171053942-q3trbkj0v36re9cohc7he5317c21du76.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yo.rolgame",
+            "certificate_hash": "645aa3cd47bc13816908848a8815dd6bed284fa3"
+          }
+        },
+        {
+          "client_id": "541171053942-a6t6l2pih8lccpupo65qjjksh718mli8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD4gwlFnosL1sNFLDt5Xp5KVq_KUi84qeM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "541171053942-a6t6l2pih8lccpupo65qjjksh718mli8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

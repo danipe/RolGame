@@ -1,0 +1,51 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+
+    <pl.droidsonroids.gif.GifImageView
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:background="@mipmap/background"
+        android:fitsSystemWindows="true" />
+
+    <EditText
+        android:id="@+id/nombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="#b1ffffff"
+        android:ems="10"
+        android:hint="Nombre personaje"
+        android:inputType="textPersonName"
+        android:padding="10dp"
+        android:textColorHint="#303030"
+        android:textCursorDrawable="@drawable/custom_cursor" />
+
+    <ImageButton
+        android:id="@+id/soundImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="41dp"
+        android:background="@android:color/transparent"
+        app:srcCompat="@mipmap/sound"/>
+
+    <ImageButton
+        android:id="@+id/googleAuthButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nombre"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="23dp"
+        app:srcCompat="@mipmap/google" />
+
+
+</RelativeLayout>
